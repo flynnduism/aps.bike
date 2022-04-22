@@ -13,6 +13,7 @@
     "npm-check-updates": "^12.5.9"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.5.0"
+    "@parcel/transformer-sass": "2.4.0",
+    "parcel": "2.4.0"
   }
 }
