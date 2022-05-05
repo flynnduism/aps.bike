@@ -62,13 +62,27 @@ body {
 }
 
 .flyer-wrap {
-  
+
   figure.image {
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 50%;
+    background-color: #EFF7FB;
+    vertical-align: middle;
+
+    img {
+      max-height: 100vh;
+      vertical-align: middle;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  iframe {
+    margin: 0 0 2rem;
   }
 }
 
@@ -127,6 +141,10 @@ article {
     &.oss:after {
       background-color: $oss;
     }
+  }
+
+  .buttons {
+    background-color: #eaeaea;
   }
 }
 
